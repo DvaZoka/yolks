@@ -23,6 +23,7 @@ RUN         apt-get update -y \
                 tini \
 				zip \
 				unzip \
+				git-lfs \
 			&& rm -rf /var/lib/apt/lists/*
 
 ## Setup working directory and environment
